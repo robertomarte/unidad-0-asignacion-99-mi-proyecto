@@ -8,7 +8,7 @@ output:
     template: svm-latex-ms.tex
     number_sections: true
 title: | 
-        | Mis hormigas
+        | Mi proyecto
         | Subtítulo
         | Subtítulo
 author:
@@ -30,9 +30,13 @@ header-includes:
   \newcommand{\elandscape}{\end{landscape}}
 ---
 
+> Consulta la sección ["Proyecto"](https://github.com/maestria-geotel-master/material-de-apoyo/blob/master/programa-analisis-espacial.md#proyecto) del material de apoyo de la asignatura. Allí encontrarás algunas claves para su realización.
+
+> Si no conseguiste datos para realizar tu proyecto, revisa los archivos de ejemplo de la carpeta `data`. En ellos hay datos espaciales que contienente muchas variables,  con las que podrás construir un tema de proyecto y formularte preguntas de investigación.
+
 # Introducción
 
-\ldots
+Preguntas de investigación o tema abordado.
 
 # Metodología
 
@@ -42,9 +46,9 @@ header-includes:
 
 \ldots
 
-# Discusión
+# Discusión o Conclusiones
 
-# Agradecimientos
+\ldots
 
 # Información de soporte
 
