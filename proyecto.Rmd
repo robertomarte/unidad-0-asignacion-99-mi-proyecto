@@ -53,6 +53,23 @@ Preguntas de investigación o tema abordado.
 
 # *Script* reproducible
 
+```{r}
+library(`sf`)
+library(`raster`)
+library(`rgdal`)
+library(`tidyverse`)
+library(`spdep`)
+library(`lmtest`)
+library(`tmap`)
+library(`RColorBrewer`)
+```
+#rgar archivo de datos de la ONE
+
+```{r}
+vivpersgeom_sf <- read.csv('data/vivpersgeom_sf.csv', check.names = F)
+columnas <- colnames(vivpersgeom_sf)
+summary(vivpersgeom_sf)
+```
 \ldots
 
 # Referencias
