@@ -15,7 +15,7 @@ author:
 - name: Roberto Marte
   affiliation: Estudiante, Universidad Autónoma de Santo Domingo (UASD)
 abstract: "Mi resumen"
-keywords: "Precipitaciones, Tipo de vivienda"
+keywords: "Nivel educativo, Indice de pobreza, cantidad de nacidos"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
 fontfamily: mathpazo
@@ -33,7 +33,10 @@ header-includes:
 
 # Introducción
 
-Preguntas de investigación o tema abordado.
+¿Que realicion existe entre la pobreza y el nivel educativo?
+¿Incide el nivel educativo de la educacion con los nacimiento en Republica dominicana?
+¿En que interviene el nivel de pobreza con los nacimientos?
+¿Existe una relacion entre nivel de pobreza, nivel educativo y pobreza?.
 
 # Metodología
 
