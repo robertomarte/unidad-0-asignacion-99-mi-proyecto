@@ -58,10 +58,16 @@ library(`sf`)
 library(`raster`)
 library(`rgdal`)
 library(`tidyverse`)
+library(readxl)
 library(`spdep`)
 library(`lmtest`)
 library(`tmap`)
 library(`RColorBrewer`)
+```
+#cargar mapa de provincia
+```{r provincia}
+prov.sf <- st_read(dsn = 'data/divisionRD.gpkg', layer = 'PROVCenso2010', quiet = T)
+plot(prov.sf)
 ```
 #rgar archivo de datos de la ONE
 
@@ -70,6 +76,12 @@ vivpersgeom_sf <- read.csv('data/vivpersgeom_sf.csv', check.names = F)
 columnas <- colnames(vivpersgeom_sf)
 summary(vivpersgeom_sf)
 ```
+```{r}
+cat(grep('^No sabe leer ni escribir|^Nunca asistió|^Primaria o básica', columnas, value=T), sep = '\n')
+```      
+```{r}
+cat(grep('^Sabe|^Asiste|^Nivel educativo', columnas, value=T), sep = '\n')
+```      
 \ldots
 
 # Referencias
