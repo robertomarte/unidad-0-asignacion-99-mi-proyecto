@@ -154,6 +154,7 @@ ggplot() +
 ### Variograma muestral
 
 Generemos el variograma muestral para el logaritmo de la precipitación. Para ello empleamos la función `variogram`.
+Para que funciones variogram hay que cargar `gstat`, `sp`, y `nlme` para que funcione.
 
 ```{r vgm-pre1990, out.width=800}
 library(gstat)
